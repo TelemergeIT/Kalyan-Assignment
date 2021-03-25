@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Assesment Test' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'IQKeyboardManagerSwift'
+  pod 'SwiftCake', :git => 'https://github.com/Rovalx/SwiftCake.git', :branch => 'master'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod "WSTagsField"
+  # Pods for Assesment Test
+
+end
